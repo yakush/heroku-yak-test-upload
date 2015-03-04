@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<form style="border: 1px black solid; padding: 10px; " action="rest/files" method="post"
+		enctype="multipart/form-data" >
+		<h1>Upload a File (local)</h1>
+
+
+
+			Select a file : <br/> <input type="file" name="file" size="50" />
+
+		<p>
+			title:<br /> <input type="text" name="title" size="50" />
+			<br/>
+		
+			desc:<br />
+			<textarea rows="10" cols="50" name="desc"></textarea>
+		</p>
+		<input type="submit" value="Upload It" />
+	</form>
+
+	<br/>
+
+	<form style="border: 1px black solid; padding: 10px; " action="rest/files/amazon" method="post"
+		enctype="multipart/form-data" >
+		<h1>Upload a File (amazon)</h1>
+
+			Select a file : <br/> <input type="file" name="file" size="50" />
+
+		<p>
+			title:<br /> <input type="text" name="title" size="50" />
+			<br/>
+		
+			desc:<br />
+			<textarea rows="10" cols="50" name="desc"></textarea>
+		</p>
+		<input type="submit" value="Upload It" />
+	</form>
+
+
+</body>
+</html>
